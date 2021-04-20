@@ -1,0 +1,16 @@
+html {
+    /* box-sizing explain: without box-sizing, every time you add padding to any element, the page
+    could strech. Say your page is 100% of the viewport's width.
+    if you add patting to any element, it would make it more than 100% and it would force
+    a horizontal scroll bar. Box-sizing prevents that from happening.*/
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* "vh stands for view-port height (100 is the full height). 
+    This will stretch the backgound to cover the full hight of the screen
+    even when the content isn't doing so. */
+    min-height: 100vh;
+    background-color: gray ;
+}
